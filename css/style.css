@@ -1,0 +1,78 @@
+.document {
+    background-color: rgb(39, 39, 39);
+}
+
+.device-frame {
+    background-color: rgb(161, 161, 161);
+    display: grid;
+    grid-auto-flow: row;
+    height: 500px;
+    width: 250px;
+    gap: 10px;
+    padding: 24px 20px 28px
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+header,
+footer {
+    text-align: center;
+    font-weight: 150;
+    font: inherit;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+header {
+    background-color: rgb(165, 22, 101);
+}
+
+.top-aside {
+    background-color: rgb(4, 85, 177);
+    text-align: center;
+    font-weight: 150;
+    font: inherit;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 7px;
+}
+    
+
+main {
+    background-color: rgb(9, 216, 137);
+    border-radius: 7px;
+    display: grid;
+    gap: 10px;
+    padding: 18px 16px;
+    
+}
+
+article {
+    background-color: rgb(248, 3, 105);
+    border-radius: 7px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 150;
+    font-size: large;
+}
+
+.bottom-aside {
+ background-color: rgb(42, 206, 235);
+    text-align: center;
+    font-weight: 150;
+    font: inherit;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 7px;   
+}
+
+footer {
+    background-color: rgb(248, 134, 41);
+}
